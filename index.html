@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere - Online Shopping</title>
+    <meta name="description" content="ShopSphere demo commerce SPA for analytics and personalization exploration." />
+
+    <!--
+      ADOBE WEB SDK (alloy) EMBED SLOT
+      ------------------------------------------------------------------
+      Paste your Adobe Data Collection Tags DEVELOPMENT embed code below.
+      Keep it in <head>. Example shape (yours will differ):
+
+      <script src="https://assets.adobedtm.com/XXXX/XXXX/launch-XXXX-development.min.js" async></script>
+
+      If you prefer the standalone alloy library instead of Tags, load alloy.js
+      here and run your alloy("configure", {...}) with your datastream id.
+      The app auto-detects window.alloy and will use it when
+      VITE_ALLOY_ENABLED=true in your .env.local file.
+    -->
+
+    <script>
+      window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
